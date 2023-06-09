@@ -15,7 +15,7 @@
       <ul style="color: #bf91f3">
         <li><span style="color: #38bdae">Module 1. Lesson 1. Variable and types.</span>
            <a
-            href="https://github.com/HaberSerhii/JavaScript/tree/8eafdcff7891b7e2d498bf17bf511445175fd669/Lesson%201"
+            href="https://github.com/HaberSerhii/JavaScript/tree/e991bc3dc24d981e308338855b39d4f4e3f45e70/Variable-and-types"
             style="color: #38bdae; text-decoration: none"
             >Autocheck (click)</a
           ></li>
