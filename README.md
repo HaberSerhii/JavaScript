@@ -1,3 +1,6 @@
+<div align="center" style="margin-bottom: 40px;">
+   <a href=""><img src="https://github-readme-streak-stats.herokuapp.com/?user=HaberSerhii&hide_border=true&card_width=1000&theme=tokyonight"/></a>
+</div>
 <div
      style="
         box-sizing: border-box;
@@ -14,11 +17,11 @@
       <h2 align="left" style="color: #70a5fd">JavaScript</h2>
       <ul style="color: #bf91f3">
         <li><span style="color: #38bdae">Module 1. Lesson 1. Variable and types.</span>
-           <a
+           <p><a
             href="https://github.com/HaberSerhii/JavaScript/tree/e991bc3dc24d981e308338855b39d4f4e3f45e70/Variable-and-types"
             style="color: #38bdae; text-decoration: none"
             >Autocheck (click)</a
-          ></li>
+                ></p></li>
         <li><span style="color: #38bdae">Module 1. Lesson 2. Branching and Cycles.</span></li>
         <li><span style="color: #38bdae">Module 2. Lesson 3. Arrays.</span></li>
         <li><span style="color: #38bdae">Module 2. Lesson 4. Functions.</span></li> 
@@ -41,6 +44,3 @@
         <li><span style="color: #38bdae">Module 11. Lesson 21. CRUD.</span></li>
         <li><span style="color: #38bdae">Module 11. Lesson 22. Sync/await syntax.</span></li>
       </ul>
-<div align="center" style="margin-bottom: 40px;">
-   <a href=""><img src="https://github-readme-streak-stats.herokuapp.com/?user=HaberSerhii&hide_border=true&card_width=1000&theme=tokyonight"/></a>
-</div>
