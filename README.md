@@ -17,7 +17,7 @@
            <a
             href="https://github.com/HaberSerhii/JavaScript/tree/8eafdcff7891b7e2d498bf17bf511445175fd669/Lesson%201"
             style="color: #38bdae; text-decoration: none"
-            >Lesson 1. Variable and types. (click)</a
+            >Autocheck (click)</a
           ></li>
         <li><span style="color: #38bdae">Module 1. Lesson 2. Branching and Cycles.</span></li>
         <li><span style="color: #38bdae">Module 2. Lesson 3. Arrays.</span></li>
