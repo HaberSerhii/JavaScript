@@ -10,10 +10,15 @@
         width: 50%;
       "
     >
-      <h3 align="center" style="color: #70a5fd">Full Stack Developer</h3>
+      <h3 align="left" style="color: #70a5fd">Full Stack Developer</h3>
+      <h2 align="left" style="color: #70a5fd">JavaScript</h2>
       <ul style="color: #bf91f3">
-        <li><span style="color: #38bdae">JavaScript.</span></li>
-        <li><span style="color: #38bdae">Module 1. Lesson 1. Variable and types.</span></li>
+        <li><span style="color: #38bdae">Module 1. Lesson 1. Variable and types.</span>
+           <a
+            href="https://github.com/HaberSerhii/JavaScript/tree/8eafdcff7891b7e2d498bf17bf511445175fd669/Lesson%201"
+            style="color: #38bdae; text-decoration: none"
+            >Lesson 1. Variable and types. (click)</a
+          ></li>
         <li><span style="color: #38bdae">Module 1. Lesson 2. Branching and Cycles.</span></li>
         <li><span style="color: #38bdae">Module 2. Lesson 3. Arrays.</span></li>
         <li><span style="color: #38bdae">Module 2. Lesson 4. Functions.</span></li> 
@@ -35,13 +40,6 @@
         <li><span style="color: #38bdae">Module 10. Lesson 20. Pagination.</span></li>
         <li><span style="color: #38bdae">Module 11. Lesson 21. CRUD.</span></li>
         <li><span style="color: #38bdae">Module 11. Lesson 22. Sync/await syntax.</span></li>
-        <li>
-          <a
-            href="https://github.com/HaberSerhii/JavaScript"
-            style="color: #38bdae; text-decoration: none"
-            >JavaScript repository (click)</a
-          >
-        </li>
       </ul>
 <div align="center" style="margin-bottom: 40px;">
    <a href=""><img src="https://github-readme-streak-stats.herokuapp.com/?user=HaberSerhii&hide_border=true&card_width=1000&theme=tokyonight"/></a>
