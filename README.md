@@ -18,7 +18,7 @@
       <ul style="color: #bf91f3">
         <li><span style="color: #38bdae">Module 1. Variable and types. Branching and Cycles.</span>
            <p><a
-            href="https://github.com/HaberSerhii/JavaScript/tree/e991bc3dc24d981e308338855b39d4f4e3f45e70/Variable-and-types"
+            href="https://github.com/HaberSerhii/JavaScript/tree/46be699a7bd7cc8911535d429046aefd2b8eb6d9/Module%201."
             style="color: #38bdae; text-decoration: none"
             >Autocheck (click)</a
                 ></p></li>
