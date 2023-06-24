@@ -18,19 +18,19 @@
       <ul style="color: #bf91f3">
         <li><span style="color: #38bdae">Module 1. Variable and types. Branching and Cycles.</span>
            <p><a
-            href="https://github.com/HaberSerhii/JavaScript/tree/46be699a7bd7cc8911535d429046aefd2b8eb6d9/Module%201."
+            href="https://github.com/HaberSerhii/JavaScript/tree/main/Module%201."
             style="color: #38bdae; text-decoration: none"
             >Autocheck (click)</a
                 ></p></li>
         <li><span style="color: #38bdae">Module 2. Arrays. Functions.</span>
          <p><a
-            href="https://github.com/HaberSerhii/JavaScript/tree/8a42ea97795b24aa31c2e79ae6885f765e002265/Module%202."
+            href="https://github.com/HaberSerhii/JavaScript/tree/main/Module%202."
             style="color: #38bdae; text-decoration: none"
             >Autocheck (click)</a
                 ></p></li>
         <li><span style="color: #38bdae">Module 3. Objects. Destructuring and spread/rest.</span>
         <p><a
-            href="https://github.com/HaberSerhii/JavaScript/tree/29ca9a5cf9326fd0ba963129139b3ddc3d628071/Module%203."
+            href="https://github.com/HaberSerhii/JavaScript/tree/main/Module%203."
             style="color: #38bdae; text-decoration: none"
             >Autocheck (click)</a
                 ></p></li>  
