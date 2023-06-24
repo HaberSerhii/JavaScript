@@ -1,12 +1,16 @@
-function calculateTotalPrice(order) {
-  let total = 0;
-  for (i = 0; i < order.length; i += 1) {
-    const item = order[i];
-    total += item;
-  }
-  return total;
-}
+function findLongestWord(string) {
+  let words = string.split(" ");
+  let longestWord = "";
 
-console.log(calculateTotalPrice([12, 85, 37, 4]));
-console.log(calculateTotalPrice([164, 48, 291]));
-console.log(calculateTotalPrice([412, 371, 94, 63, 176]));
+  for (i = 0; i < words.length; i += 1) {
+    const word = words[i];
+    if (word.length > longestWord.length) {
+      longestWord = word;
+    }
+  }
+
+  return longestWord;
+}
+console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));
+console.log(findLongestWord("Google do a roll"));
+console.log(findLongestWord("May the force be with you"));

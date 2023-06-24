@@ -1,11 +1,15 @@
-function createArrayOfNumbers(min, max) {
-  const numbers = [];
-  for (let i = min; i <= max; i += 1) {
-    numbers.push(i);
+function filterArray(numbers, value) {
+  const partArray = [];
+  for (let i = 0; i < numbers.length; i += 1) {
+    if (numbers[i] > value) {
+      partArray.push(numbers[i]);
+    }
   }
-  return numbers;
+  return partArray;
 }
 
-console.log(createArrayOfNumbers(1, 3));
-console.log(createArrayOfNumbers(14, 17));
-console.log(createArrayOfNumbers(29, 34));
+console.log(filterArray[(1, 2, 3, 4, 5)], 3);
+console.log(filterArray[(1, 2, 3, 4, 5)], 4);
+console.log(filterArray[(1, 2, 3, 4, 5)], 5);
+console.log(filterArray[(12, 24, 8, 41, 76)], 38);
+console.log(filterArray[(12, 24, 8, 41, 76)], 20);
