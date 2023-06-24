@@ -28,7 +28,12 @@
             style="color: #38bdae; text-decoration: none"
             >Autocheck (click)</a
                 ></p></li>
-        <li><span style="color: #38bdae">Module 3. Objects. Destructuring and spread/rest.</span></li>
+        <li><span style="color: #38bdae">Module 3. Objects. Destructuring and spread/rest.</span>
+        <p><a
+            href="https://github.com/HaberSerhii/JavaScript/tree/29ca9a5cf9326fd0ba963129139b3ddc3d628071/Module%203."
+            style="color: #38bdae; text-decoration: none"
+            >Autocheck (click)</a
+                ></p></li>  
         <li><span style="color: #38bdae">Module 4. Collbacks and arrow functions. Transfering methods of array.</span></li> 
         <li><span style="color: #38bdae">Module 5. The key word this. Prototypes and classes.</span></li>
         <li><span style="color: #38bdae">Module 6. Document Object Model. Events.</span></li>
