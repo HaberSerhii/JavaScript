@@ -1,17 +1,16 @@
 function f1() {
   const atTheOldToad = {
     potions: ["Speed potion", "Dragon breath", "Stone skin"],
-    removePotion(potionName) {
-      for (let i = 0; i < this.potions.length; i += 1) {
-        let potionIndex = this.potions[i];
-        if (potionName === potionIndex) {
-          this.potions.splice(i, 1);
-          break;
-        }
+    updatePotionName(oldName, newName) {
+      const indexPotion = this.potions.indexOf(oldName);
+      if (indexPotion !== -1) {
+        this.potions.splice(indexPotion, 1, newName);
       }
     },
   };
-  console.log(atTheOldToad.potions[0]);
-  document.querySelector(".output-1").innerHTML = atTheOldToad.potions[1];
+  atTheOldToad.updatePotionName("Speed potion", "Great");
+  document.querySelector(".output-1").innerHTML =
+    atTheOldToad.potions.join(", ");
+  console.log(atTheOldToad.potions);
 }
 document.querySelector(".btn-1").onclick = f1;
