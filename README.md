@@ -34,12 +34,52 @@
             style="color: #38bdae; text-decoration: none"
             >Autocheck (click)</a
                 ></p></li>  
-        <li><span style="color: #38bdae">Module 4. Collbacks and arrow functions. Transfering methods of array.</span></li> 
-        <li><span style="color: #38bdae">Module 5. The key word this. Prototypes and classes.</span></li>
-        <li><span style="color: #38bdae">Module 6. Document Object Model. Events.</span></li>
-        <li><span style="color: #38bdae">Module 7. Delegation of events. throttle/debounce и lazyload.</span></li>
-        <li><span style="color: #38bdae">Module 8. Code modularity. Web storage.</span></li>
-        <li><span style="color: #38bdae">Module 9. Timers and time. Promises.</span></li> 
-        <li><span style="color: #38bdae">Module 10. HTTP requests. Pagination.</span></li> 
-        <li><span style="color: #38bdae">Module 11. CRUD. Sync/await syntax.</span></li>
+        <li><span style="color: #38bdae">Module 4. Collbacks and arrow functions. Transfering methods of array.</span>
+        <p><a
+            href="https://github.com/HaberSerhii/JavaScript/tree/main/Module%204."
+            style="color: #38bdae; text-decoration: none"
+            >Autocheck (click)</a
+                ></p></li> 
+        <li><span style="color: #38bdae">Module 5. The key word this. Prototypes and classes.</span>
+        <p><a
+            href="https://github.com/HaberSerhii/JavaScript/tree/main/Module%205."
+            style="color: #38bdae; text-decoration: none"
+            >Autocheck (click)</a
+                ></p></li>
+        <li><span style="color: #38bdae">Module 6. Document Object Model. Events.</span>
+        <p><a
+            href="https://github.com/HaberSerhii/JavaScript/tree/main/Module%206."
+            style="color: #38bdae; text-decoration: none"
+            >Autocheck (click)</a
+                ></p></li>
+        <li><span style="color: #38bdae">Module 7. Delegation of events. throttle/debounce и lazyload.</span>
+        <p><a
+            href="https://github.com/HaberSerhii/JavaScript/tree/main/Module%207."
+            style="color: #38bdae; text-decoration: none"
+            >Autocheck (click)</a
+                ></p></li>
+        <li><span style="color: #38bdae">Module 8. Code modularity. Web storage.</span>
+        <p><a
+            href="https://github.com/HaberSerhii/JavaScript/tree/main/Module%208."
+            style="color: #38bdae; text-decoration: none"
+            >Autocheck (click)</a
+                ></p></li>
+        <li><span style="color: #38bdae">Module 9. Timers and time. Promises.</span>
+        <p><a
+            href="https://github.com/HaberSerhii/JavaScript/tree/main/Module%209."
+            style="color: #38bdae; text-decoration: none"
+            >Autocheck (click)</a
+                ></p></li> 
+        <li><span style="color: #38bdae">Module 10. HTTP requests. Pagination.</span>
+        <p><a
+            href="https://github.com/HaberSerhii/JavaScript/tree/main/Module%210."
+            style="color: #38bdae; text-decoration: none"
+            >Autocheck (click)</a
+                ></p></li> 
+        <li><span style="color: #38bdae">Module 11. CRUD. Sync/await syntax.</span>
+        <p><a
+            href="https://github.com/HaberSerhii/JavaScript/tree/main/Module%211."
+            style="color: #38bdae; text-decoration: none"
+            >Autocheck (click)</a
+                ></p></li>
       </ul>
