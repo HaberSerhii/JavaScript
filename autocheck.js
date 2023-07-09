@@ -1,24 +1,18 @@
-function getCommonElements(firstArray, secondArray) {
-  const commonElements = [];
-  firstArray.forEach(function (number) {
-    if (secondArray.includes(number)) {
-      commonElements.push(number);
+function changeEven(numbers, value) {
+  const newNumbers = numbers.map((element) => {
+    if (element % 2 === 0) {
+      return element + value;
     }
+    return element;
   });
-  return commonElements;
+  return newNumbers;
 }
 
-console.log(getCommonElements([1, 2, 3], [2, 4]));
-console.log(getCommonElements([1, 2, 3], [2, 1, 17, 19]));
-console.log(getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27]));
-console.log(getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40]));
-console.log(getCommonElements([1, 2, 3], [10, 20, 30]));
-
+console.log(changeEven([44, 13, 81, 92, 36, 54], 100));
 function f1() {
-  return (document.querySelector(".output-1").innerHTML = getCommonElements(
-    [10, 20, 30, 40],
-    [4, 30, 17, 10, 40]
+  return (document.querySelector(".output-1").innerHTML = changeEven(
+    [44, 13, 81, 92, 36, 54],
+    100
   ));
 }
-
 document.querySelector(".btn-1").onclick = f1;
