@@ -1,31 +1,24 @@
-const historyService = {
-  orders: [
-    { email: "jacob@hotmail.com", dish: "Burrito" },
-    { email: "solomon@topmail.net", dish: "Burger" },
-    { email: "artemis@coldmail.net", dish: "Pizza" },
-    { email: "solomon@topmail.net", dish: "Apple pie" },
-    { email: "jacob@hotmail.com", dish: "Taco" },
-  ],
-  getOrdersLog() {
-    return this.orders
-      .map((order) => `email: ${order.email} dish: ${order.dish}`)
-      .join(" - ");
-  },
-  getEmails() {
-    const emails = this.orders.map((order) => order.email);
-    const uniqueEmails = new Set(emails);
-    return [...uniqueEmails];
-  },
-  getOrdersByEmail(email) {
-    return this.orders.filter((order) => order.email === email);
-  },
-};
+class Car {
+  static #MAX_PRICE = 50000;
+  static checkPrice(price) {
+    if (price > this.#MAX_PRICE) {
+      return "Error! Price exceeds the maximum";
+    }
+    return "Success! Price is within acceptable limits";
+  }
+  constructor({ price }) {
+    this.price = price;
+  }
+}
 
-console.log(historyService.getOrdersByEmail("solomon@topmail.net"));
+const audi = new Car({ price: 36000 });
+const bmw = new Car({ price: 64000 });
+
+console.log(Car.checkPrice(audi.price)); // "Success! Price is within acceptable limits"
+console.log(Car.checkPrice(bmw.price)); // "Error! Price exceeds the maximum"
 
 function f1() {
-  document.querySelector(".output-1").innerHTML =
-    historyService.getOrdersByEmail("artemis@coldmail.net");
+  document.querySelector(".output-1").innerHTML = Car.checkPrice(audi.price);
 }
 
 document.querySelector(".btn-1").onclick = f1;
