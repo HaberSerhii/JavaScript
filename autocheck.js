@@ -1,24 +1,56 @@
-class Car {
-  static #MAX_PRICE = 50000;
-  static checkPrice(price) {
-    if (price > this.#MAX_PRICE) {
-      return "Error! Price exceeds the maximum";
-    }
-    return "Success! Price is within acceptable limits";
+class User {
+  email;
+
+  constructor(email) {
+    this.email = email;
   }
-  constructor({ price }) {
-    this.price = price;
+
+  get email() {
+    return this.email;
+  }
+
+  set email(newEmail) {
+    this.email = newEmail;
   }
 }
 
-const audi = new Car({ price: 36000 });
-const bmw = new Car({ price: 64000 });
+class Admin extends User {
+  blacklistedEmails = [];
 
-console.log(Car.checkPrice(audi.price)); // "Success! Price is within acceptable limits"
-console.log(Car.checkPrice(bmw.price)); // "Error! Price exceeds the maximum"
+  static AccessLevel = {
+    BASIC: "basic",
+    SUPERUSER: "superuser",
+  };
+
+  constructor({ email, accessLevel }) {
+    super(email);
+    this.accessLevel = accessLevel;
+  }
+
+  blacklist(email) {
+    this.blacklistedEmails.push(email);
+  }
+
+  isBlacklisted(email) {
+    return this.blacklistedEmails.includes(email);
+  }
+}
+
+const mango = new Admin({
+  email: "mango@mail.com",
+  accessLevel: Admin.AccessLevel.SUPERUSER,
+});
+
+console.log(mango.email); // "mango@mail.com"
+console.log(mango.accessLevel); // "superuser"
+mango.blacklist("poly@mail.com");
+console.log(mango.blacklistedEmails); // ["poly@mail.com"]
+console.log(mango.isBlacklisted("mango@mail.com")); // false
+console.log(mango.isBlacklisted("poly@mail.com")); // true
 
 function f1() {
-  document.querySelector(".output-1").innerHTML = Car.checkPrice(audi.price);
+  document.querySelector(".output-1").innerHTML =
+    mango.isBlacklisted("poly@mail.com");
 }
 
 document.querySelector(".btn-1").onclick = f1;
