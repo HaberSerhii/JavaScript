@@ -48,21 +48,21 @@
                 ></p></li>
         <li><span style="color: #38bdae">Module 6. Document Object Model. Events.</span>
         <p><a
-            href="https://github.com/HaberSerhii/JavaScript/tree/main/Module%206."
+            href="https://haberserhii.github.io/goit-js-hw-06/"
             style="color: #38bdae; text-decoration: none"
-            >Autocheck (click)</a
+            >Hometask (click)</a
                 ></p></li>
         <li><span style="color: #38bdae">Module 7. Delegation of events. throttle/debounce и lazyload.</span>
         <p><a
-            href="https://github.com/HaberSerhii/JavaScript/tree/main/Module%207."
+            href="https://haberserhii.github.io/goit-js-hw-07/"
             style="color: #38bdae; text-decoration: none"
-            >Autocheck (click)</a
+            >Hometask (click)</a
                 ></p></li>
         <li><span style="color: #38bdae">Module 8. Code modularity. Web storage.</span>
         <p><a
-            href="https://github.com/HaberSerhii/JavaScript/tree/main/Module%208."
+            href="https://haberserhii.github.io/goit-js-hw-08/"
             style="color: #38bdae; text-decoration: none"
-            >Autocheck (click)</a
+            >Hometask (click)</a
                 ></p></li>
         <li><span style="color: #38bdae">Module 9. Timers and time. Promises.</span>
         <p><a
