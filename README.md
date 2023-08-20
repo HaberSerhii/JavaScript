@@ -68,7 +68,7 @@
         <p><a
             href="https://haberserhii.github.io/goit-js-hw-09/"
             style="color: #38bdae; text-decoration: none"
-            >Autocheck (click)</a
+            >Hometask (click)</a
                 ></p></li> 
         <li><span style="color: #38bdae">Module 10. HTTP requests. Pagination.</span>
         <p><a
