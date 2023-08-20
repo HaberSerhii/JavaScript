@@ -66,7 +66,7 @@
                 ></p></li>
         <li><span style="color: #38bdae">Module 9. Timers and time. Promises.</span>
         <p><a
-            href="https://github.com/HaberSerhii/JavaScript/tree/main/Module%209."
+            href="https://haberserhii.github.io/goit-js-hw-09/"
             style="color: #38bdae; text-decoration: none"
             >Autocheck (click)</a
                 ></p></li> 
