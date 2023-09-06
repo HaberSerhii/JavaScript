@@ -72,14 +72,14 @@
                 ></p></li> 
         <li><span style="color: #38bdae">Module 10. HTTP requests. Pagination.</span>
         <p><a
-            href="https://github.com/HaberSerhii/JavaScript/tree/main/Module%2010."
+            href="https://haberserhii.github.io/goit-js-hw-10/"
             style="color: #38bdae; text-decoration: none"
-            >Autocheck (click)</a
+            >Hometask (click)</a
                 ></p></li> 
         <li><span style="color: #38bdae">Module 11. CRUD. Sync/await syntax.</span>
         <p><a
-            href="https://github.com/HaberSerhii/JavaScript/tree/main/Module%2011."
+            href="https://haberserhii.github.io/goit-js-hw-11/"
             style="color: #38bdae; text-decoration: none"
-            >Autocheck (click)</a
+            >Hometask (click)</a
                 ></p></li>
       </ul>
