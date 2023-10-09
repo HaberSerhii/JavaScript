@@ -21,3 +21,12 @@
 // console.log(century(2001));
 
 //! TASK 3
+
+// function numberToString(num) {
+//   let str = `${num}`;
+//   return str;
+// }
+
+// console.log(numberToString(37));
+
+//! TASK 4
