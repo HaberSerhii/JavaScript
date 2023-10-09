@@ -30,3 +30,8 @@
 // console.log(numberToString(37));
 
 //! TASK 4
+
+function getCount(str) {
+  let vowelsWord = "a, e, i, o, u";
+  return 0;
+}
