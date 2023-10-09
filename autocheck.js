@@ -32,6 +32,15 @@
 //! TASK 4
 
 function getCount(str) {
-  let vowelsWord = "a, e, i, o, u";
-  return 0;
+  const vowels = "aeiou";
+  let count = 0;
+  str = str.toLowerCase();
+  for (let i = 0; i < str.length; i++) {
+    if (vowels.includes(str[i])) {
+      count += 1;
+    }
+  }
+  return count;
 }
+
+console.log(getCount("abr"));
