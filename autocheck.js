@@ -11,3 +11,13 @@
 // console.log(repeatStr(3, "*"));
 
 //! TASK 2
+
+// function century(year) {
+//   let countCentury =
+//     year % 100 === 0 ? Math.floor(year / 100) : Math.floor(year / 100) + 1;
+//   return countCentury;
+// }
+
+// console.log(century(2001));
+
+//! TASK 3
