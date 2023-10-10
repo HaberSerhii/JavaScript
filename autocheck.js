@@ -48,9 +48,33 @@
 //! TASK 5
 
 // function findNeedle(haystack) {
+//   if (!Array.isArray(haystack)) {
+//     return console.log(`We need push array`);
+//   }
 //   if (haystack.includes("needle")) {
-//     return `found the needle at position ${haystack.indexOf("needle")}`;
+//     return console.log(
+//       `found the needle at position ${haystack.indexOf("needle")}`
+//     );
 //   }
 // }
 
+// findNeedle([null]);
+
 //! TASK 6
+
+// function bmi(weight, height) {
+//   const massIndex = weight / (height * height);
+//   if (massIndex <= 18.5) {
+//     return "Underweight";
+//   } else if (massIndex <= 25.0) {
+//     return "Normal";
+//   } else if (massIndex <= 30.0) {
+//     return "Overweight";
+//   } else {
+//     return "Obese";
+//   }
+// }
+
+// console.log(bmi(50, 1.92));
+
+//! TASK 7
