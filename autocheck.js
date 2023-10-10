@@ -46,3 +46,11 @@
 // console.log(getCount("abr"));
 
 //! TASK 5
+
+// function findNeedle(haystack) {
+//   if (haystack.includes("needle")) {
+//     return `found the needle at position ${haystack.indexOf("needle")}`;
+//   }
+// }
+
+//! TASK 6
