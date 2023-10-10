@@ -78,3 +78,19 @@
 // console.log(bmi(50, 1.92));
 
 //! TASK 7
+
+// function betterThanAverage(classPoints, yourPoints) {
+//   if (!Array.isArray(classPoints)) {
+//     return "Need Array";
+//   }
+//   let totalPoints = 0;
+//   classPoints.forEach((point) => {
+//     totalPoints += point;
+//   });
+//   const midPoints = totalPoints / classPoints.length;
+//   return midPoints < yourPoints;
+// };
+
+// console.log(betterThanAverage([41, 75, 72, 56, 80, 82, 81, 33], 50));
+
+//! TASK 8
