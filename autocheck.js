@@ -1,56 +1,96 @@
-class User {
-  email;
+//! TASK 1
 
-  constructor(email) {
-    this.email = email;
-  }
+// function repeatStr(n, s) {
+//   let str = "";
+//   for (let i = 0; i < n; i += 1) {
+//     str += s;
+//   }
+//   return str;
+// }
 
-  get email() {
-    return this.email;
-  }
+// console.log(repeatStr(3, "*"));
 
-  set email(newEmail) {
-    this.email = newEmail;
-  }
-}
+//! TASK 2
 
-class Admin extends User {
-  blacklistedEmails = [];
+// function century(year) {
+//   let countCentury =
+//     year % 100 === 0 ? Math.floor(year / 100) : Math.floor(year / 100) + 1;
+//   return countCentury;
+// }
 
-  static AccessLevel = {
-    BASIC: "basic",
-    SUPERUSER: "superuser",
-  };
+// console.log(century(2001));
 
-  constructor({ email, accessLevel }) {
-    super(email);
-    this.accessLevel = accessLevel;
-  }
+//! TASK 3
 
-  blacklist(email) {
-    this.blacklistedEmails.push(email);
-  }
+// function numberToString(num) {
+//   let str = `${num}`;
+//   return str;
+// }
 
-  isBlacklisted(email) {
-    return this.blacklistedEmails.includes(email);
-  }
-}
+// console.log(numberToString(37));
 
-const mango = new Admin({
-  email: "mango@mail.com",
-  accessLevel: Admin.AccessLevel.SUPERUSER,
-});
+//! TASK 4
 
-console.log(mango.email); // "mango@mail.com"
-console.log(mango.accessLevel); // "superuser"
-mango.blacklist("poly@mail.com");
-console.log(mango.blacklistedEmails); // ["poly@mail.com"]
-console.log(mango.isBlacklisted("mango@mail.com")); // false
-console.log(mango.isBlacklisted("poly@mail.com")); // true
+// function getCount(str) {
+//   const vowels = "aeiou";
+//   let count = 0;
+//   str = str.toLowerCase();
+//   for (let i = 0; i < str.length; i++) {
+//     if (vowels.includes(str[i])) {
+//       count += 1;
+//     }
+//   }
+//   return count;
+// }
 
-function f1() {
-  document.querySelector(".output-1").innerHTML =
-    mango.isBlacklisted("poly@mail.com");
-}
+// console.log(getCount("abr"));
 
-document.querySelector(".btn-1").onclick = f1;
+//! TASK 5
+
+// function findNeedle(haystack) {
+//   if (!Array.isArray(haystack)) {
+//     return console.log(`We need push array`);
+//   }
+//   if (haystack.includes("needle")) {
+//     return console.log(
+//       `found the needle at position ${haystack.indexOf("needle")}`
+//     );
+//   }
+// }
+
+// findNeedle([null]);
+
+//! TASK 6
+
+// function bmi(weight, height) {
+//   const massIndex = weight / (height * height);
+//   if (massIndex <= 18.5) {
+//     return "Underweight";
+//   } else if (massIndex <= 25.0) {
+//     return "Normal";
+//   } else if (massIndex <= 30.0) {
+//     return "Overweight";
+//   } else {
+//     return "Obese";
+//   }
+// }
+
+// console.log(bmi(50, 1.92));
+
+//! TASK 7
+
+// function betterThanAverage(classPoints, yourPoints) {
+//   if (!Array.isArray(classPoints)) {
+//     return "Need Array";
+//   }
+//   let totalPoints = 0;
+//   classPoints.forEach((point) => {
+//     totalPoints += point;
+//   });
+//   const midPoints = totalPoints / classPoints.length;
+//   return midPoints < yourPoints;
+// };
+
+// console.log(betterThanAverage([41, 75, 72, 56, 80, 82, 81, 33], 50));
+
+//! TASK 8
