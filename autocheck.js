@@ -94,3 +94,19 @@
 // console.log(betterThanAverage([41, 75, 72, 56, 80, 82, 81, 33], 50));
 
 //! TASK 8
+
+// const mathFn = function (value) {
+//   let mathOperations = value * -2 + value;
+//   return mathOperations;
+// };
+
+// const counter = function (number) {
+//   if (number < 0) {
+//     return `Число від'ємне`;
+//   }
+//   return number;
+// };
+
+// console.log(counter(mathFn(33)));
+
+//! TASK 9
