@@ -110,3 +110,26 @@
 // console.log(counter(mathFn(33)));
 
 //! TASK 9
+
+// const a = { x: 1, y: 2 };
+// const b = { x: 0, z: 3 };
+
+// const c1 = Object.assign({}, a, b);
+
+// const c = { ...a, ...b };
+
+// console.table(c);
+
+//! TASK 10
+
+const playlist = {
+  name: "My favorite playlist",
+  rating: 5,
+  tracks: ["track-1, track-2, track-3"],
+  trackCount: 3,
+};
+
+const { name, rating, trackCount, tracks, author = "Haber" } = playlist;
+console.log(author);
+
+console.table(playlist);
