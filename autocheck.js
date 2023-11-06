@@ -125,11 +125,9 @@
 const playlist = {
   name: "My favorite playlist",
   rating: 5,
-  tracks: ["track-1, track-2, track-3"],
-  trackCount: 3,
+  tracks: ["track-1, track-2, track-3, track-4"],
+  trackCount: 0,
 };
-
-const { name, rating, trackCount, tracks, author = "Haber" } = playlist;
-console.log(author);
-
+const countTrack = playlist.tracks[0].split(", ").length;
+playlist.trackCount = countTrack;
 console.table(playlist);
