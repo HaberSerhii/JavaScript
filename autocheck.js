@@ -305,3 +305,25 @@
 // console.table(r3);
 
 //! TASK 13
+
+const fruits = [
+  { name: "🍎", price: 50 },
+  { name: "🍇", price: 70 },
+  { name: "🍋", price: 60 },
+  { name: "🍓", price: 110 },
+];
+
+const fruitsName = fruits.map((fruit) => fruit.name);
+const fruitsPrice = fruits.map((fruit) => fruit.price ** 2);
+
+console.log(fruitsName.length);
+console.log(fruitsPrice.length);
+
+const updateArrPrice = fruits.map((fruit) => ({
+  ...fruit,
+  price: fruit.price * 2,
+}));
+
+console.table(updateArrPrice);
+
+//! TASK 14
